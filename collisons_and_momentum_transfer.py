@@ -136,3 +136,8 @@ E_1 &= 1.25, & E_2 &\approx 1.048, & E_\text{total} &\approx 2.298 \\
 p_1 &= 1.25 \times 0.6 = 0.75, & p_2 &\approx 1.048 \times (-0.3) \approx -0.314, & p_\text{total} &\approx 0.436
 \end{align*}
 """)
+
+<div style='text-align: center; font-size: 14px; color: gray;'>
+© 2025 Shivraj Deshmukh — All Rights Reserved<br>
+[GitHub Repo](https://github.com/yourusername/special-relativity-simulations) | Created with Streamlit
+</div>
