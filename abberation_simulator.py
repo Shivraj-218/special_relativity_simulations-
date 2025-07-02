@@ -83,3 +83,8 @@ st.info("""
 At high speeds, stars appear to cluster toward the direction of motion —  
 a stunning effect of spacetime geometry.
 """)
+
+<div style='text-align: center; font-size: 14px; color: gray;'>
+© 2025 Shivraj Deshmukh — All Rights Reserved<br>
+[GitHub Repo](https://github.com/yourusername/special-relativity-simulations) | Created with Streamlit
+</div>
