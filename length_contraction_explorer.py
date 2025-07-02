@@ -33,11 +33,13 @@ uploaded_file = st.file_uploader("Or upload your own image (PNG/JPG)", type=["pn
 # Load image
 if preset:
     try:
-        image = Image.open("spaceship.png").convert("RGBA")
+        preset_path = "images/spaceship.png"
+        image = Image.open(preset_path).convert("RGBA")
         st.success("Using preset spaceship image.")
     except FileNotFoundError:
-        st.error("Missing file: 'spaceship.png'. Please place it in this folder.")
+        st.error("Missing file: 'images/spaceship.png'. Please place it in the 'images/' folder.")
         st.stop()
+
 elif uploaded_file:
     image = Image.open(uploaded_file).convert("RGBA")
     st.success("Using uploaded image.")
