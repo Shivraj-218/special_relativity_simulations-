@@ -137,7 +137,12 @@ p_1 &= 1.25 \times 0.6 = 0.75, & p_2 &\approx 1.048 \times (-0.3) \approx -0.314
 \end{align*}
 """)
 
+st.markdown("""
+<hr style='margin-top: 50px; margin-bottom: 10px'>
+
 <div style='text-align: center; font-size: 14px; color: gray;'>
-© 2025 Shivraj Deshmukh — All Rights Reserved<br>
-[GitHub Repo](https://github.com/yourusername/special-relativity-simulations) | Created with Streamlit
+&copy; 2025 Shivraj Deshmukh — All Rights Reserved<br>
+Created with ❤️ using Streamlit
 </div>
+""", unsafe_allow_html=True)
+
